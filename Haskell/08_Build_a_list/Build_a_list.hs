@@ -3,6 +3,7 @@
 data List = Cons String List | Empty -- : (Cons)를 사용하여 표현 배열 규칙
 -- String을 list로 가지던지 비어 있을 수 있음.
 -- 빈 list를 생성한 뒤, 값을 넣어줄 것입니다.
+-- 리스트 구성은 재귀적으로 이루어짐
 
 emptyList, oneList, twoList :: List
 
